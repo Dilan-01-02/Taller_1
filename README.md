@@ -4,23 +4,29 @@
 ![attack on coding](https://user-images.githubusercontent.com/124607325/225370329-96e3bfc0-d0a4-4adf-bda7-91cd5fc0260f.jpeg)
 
 
+## Primer punto Quiz
 
+   ![image](https://user-images.githubusercontent.com/124721286/225171932-6644b634-fdae-4a8f-a69d-dcf4c304ed4f.png)
 
 ## Segundo punto 
-2. Realice un programa que lea tres números reales y determine cuál es el mayor.
+   2. Realice un programa que lea tres números reales y determine cuál es el mayor.
+   
 ### Diagrama de flujo ###
+
 [![](https://mermaid.ink/img/pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g?type=png)](https://mermaid.live/edit#pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g)
 
-En primer lugar se le pedirá al usuario asignar valor a cada una de las variables (a, b y c) que serán almacenadas como flotantes. 
-[![Insertando-valores.png](https://i.postimg.cc/QCjswYK5/Insertando-valores.png)](https://postimg.cc/34fPDBBJ)
-Se realizan las correspondientes comparaciones a partir de los valores insertados y se establece una alternativa de mensaje para cada situación. 
-[![Ejemplo-con-5-78-y-3.png](https://i.postimg.cc/QtQh6ZCh/Ejemplo-con-5-78-y-3.png)](https://postimg.cc/ftRGLFYr)
+   1. En primer lugar se le pedirá al usuario asignar valor a cada una de las variables (a, b y c) que serán almacenadas como flotantes.
+   
+      [![Insertando-valores.png](https://i.postimg.cc/QCjswYK5/Insertando-valores.png)](https://postimg.cc/34fPDBBJ)
 
-Código completo:
+   2. Se realizan las correspondientes comparaciones a partir de los valores insertados y se establece una alternativa de mensaje para cada situación.
+   
+      [![Ejemplo-con-5-78-y-3.png](https://i.postimg.cc/QtQh6ZCh/Ejemplo-con-5-78-y-3.png)](https://postimg.cc/ftRGLFYr)
 
-´´´
+   3. Código completo:
+   
 ```
-#Programa para calcular el mayor de tres números reales
+# Programa para calcular el mayor de tres números reales
 a: float = input("inserte valor de a")
 b: float = input("inserte valor de b")
 c: float = input("inserte valor de c")
@@ -30,26 +36,30 @@ elif b>a>c or b>c>a:
     print("El mayor número es " + str(b))
 else:
     print("El mayor número es " + str(c))
-´´´
 ```
 
 ## Tercer Punto
+
 ##  Diagrama de flujo 
-![Diagrama de flujo punto 3](https://user-images.githubusercontent.com/124607325/225164100-c29c5ffe-fcb1-4f42-b618-bc0ae9b55476.png)
+
+   ![Diagrama de flujo punto 3](https://user-images.githubusercontent.com/124607325/225164100-c29c5ffe-fcb1-4f42-b618-bc0ae9b55476.png)
 
 
-1. Se pide que ingrese un número entero.
-![Ingresar un numero entero](https://user-images.githubusercontent.com/124607325/225150478-5549a790-0748-44ee-b7fb-10a0c7f51071.png)
+   1. Se pide que ingrese un número entero.
+   
+      ![Ingresar un numero entero](https://user-images.githubusercontent.com/124607325/225150478-5549a790-0748-44ee-b7fb-10a0c7f51071.png)
 
-El número ingresado se almacena como un entero en la variable n
-![Tercer punto Codigo](https://user-images.githubusercontent.com/124607325/225164326-03c2d08d-aece-4dd3-8168-f97dd510c11e.png)
-
-
-2. Si el número n es impar,  se determinará usando n % 2 != 0, que devuelve verdadero si el resto de la división de n entre 2  es cero. e imprime que el número ingresado no es par
-![RESULTADO NUMERO NO PAR](https://user-images.githubusercontent.com/124607325/225151673-45464d1a-d59e-40a8-8303-e387ea1061a5.png)
+      El número ingresado se almacena como un entero en la variable n
+      
+      ![Tercer punto Codigo](https://user-images.githubusercontent.com/124607325/225164326-03c2d08d-aece-4dd3-8168-f97dd510c11e.png)
 
 
-3. Si el resultado de la expresión anterior es falso, se imprime un mensaje que indica que el número es par. Y finaliza el programa
+   2. Si el número n es impar,  se determinará usando n % 2 != 0, que devuelve verdadero si el resto de la división de n entre 2  es cero. e imprime que el número ingresado no es par
+   
+      ![RESULTADO NUMERO NO PAR](https://user-images.githubusercontent.com/124607325/225151673-45464d1a-d59e-40a8-8303-e387ea1061a5.png)
+
+
+   3. Si el resultado de la expresión anterior es falso, se imprime un mensaje que indica que el número es par. Y finaliza el programa
 ![Resultado numero par](https://user-images.githubusercontent.com/124607325/225151781-53d82469-fee8-4d5a-a1bd-f0295a6c34cc.png)
 
 ## Cuarto Punto 
@@ -92,53 +102,56 @@ El número ingresado se almacena como un entero en la variable n
   
       ![image](https://user-images.githubusercontent.com/124721286/225160698-8b52941c-d65d-4c49-87b2-b5a511e53abf.png)
       
-      # Quinto punto #
-5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
-Igualmente el programa inicia pidiéndole al usuario asignar valor a las variables (numero1, numero2, y numero3) que fueron declaradas como flotantes. Se realiza la suma de los dos primeros números y se establece un mensaje para cada una de las posibles situaciones al comparar el resultado con el tercer valor. 
-[![Ejemplo-con-16-4-y-20.png](https://i.postimg.cc/L8mSsbxb/Ejemplo-con-16-4-y-20.png)](https://postimg.cc/HVvRZBDw)
+## Quinto punto
 
-Codigo completo:
+  Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 
-´´´
-```
-# Programa que lee tres números reales y determina si la suma de los dos primeros es mayor, menor o igual que el tercer número.
-numero1: float
-numero1 = float(input("Insertar valor de numero1"))
-numero2: float
-numero2 = float(input("Insertar valor de numero2"))
-numero3: float
-numero3 = float(input("Insertar valor de numero3"))
-if numero1+numero2 < numero3:
-    print("La suma de los dos primeros números es menor que el tercero")
-elif numero1+numero2 > numero3:
-    print("La suma de los dos primeros números es mayor que el tercero")
-else:
-    print("La suma de los dos primeros números es igual que el tercero")
-´´´
-```
+  1. Igualmente el programa inicia pidiéndole al usuario asignar valor a las variables (numero1, numero2, y numero3) que fueron declaradas como flotantes. Se realiza la suma de los dos primeros números y se establece un mensaje para cada una de las posibles situaciones al comparar el resultado con el tercer valor. 
+
+       [![Ejemplo-con-16-4-y-20.png](https://i.postimg.cc/L8mSsbxb/Ejemplo-con-16-4-y-20.png)](https://postimg.cc/HVvRZBDw)
+
+  2. Codigo completo:
+
+     ```
+     # Programa que lee tres números reales y determina si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+     numero1: float
+     numero1 = float(input("Insertar valor de numero1"))
+     numero2: float
+     numero2 = float(input("Insertar valor de numero2"))
+     numero3: float
+     numero3 = float(input("Insertar valor de numero3"))
+     if numero1+numero2 < numero3:
+        print("La suma de los dos primeros números es menor que el tercero")
+     elif numero1+numero2 > numero3:
+        print("La suma de los dos primeros números es mayor que el tercero")
+     else:
+        print("La suma de los dos primeros números es igual que el tercero")
+     ```
 
 ## Sexto Punto
-1. Se pide ingresar una letra y se almacena en la variable letra.
-![INGRESE UNA LETRA](https://user-images.githubusercontent.com/124607325/225155395-d44f9289-5bc7-4633-9dda-1e5b4019d0e3.png)
 
-![Sexto punto](https://user-images.githubusercontent.com/124607325/225183068-f23bb478-5ef0-4ea5-9898-07d9e56f96ad.png)
+   1. Se pide ingresar una letra y se almacena en la variable letra.
 
+      ![INGRESE UNA LETRA](https://user-images.githubusercontent.com/124607325/225155395-d44f9289-5bc7-4633-9dda-1e5b4019d0e3.png)
 
-2. Se verifica si la letra ingresada es una vocal, comparándola con una tupla de las vocales en minúsculas utilizando el operador in.
-3. Si la letra es una vocal, se imprime un mensaje indicando que la entrada es una vocal.
-![VOCAL](https://user-images.githubusercontent.com/124607325/225183094-aedaa47f-eff8-45b1-b6eb-f00aeaec0bd4.png)
+      ![Sexto punto](https://user-images.githubusercontent.com/124607325/225183068-f23bb478-5ef0-4ea5-9898-07d9e56f96ad.png)
 
 
-4. Si la letra no es una vocal, se verifica si es una consonante comparándola con una tupla de las consonantes en minúsculas utilizando el operador in.
-5. Si la letra es una consonante, se imprime un mensaje indicando que la entrada es una consonante.
-![CONSONANTE](https://user-images.githubusercontent.com/124607325/225183103-66da80c5-6a2e-48aa-94c7-d37b856b8abc.png)
+   2. Se verifica si la letra ingresada es una vocal, comparándola con una tupla de las vocales en minúsculas utilizando el operador in.
 
+   3. Si la letra es una vocal, se imprime un mensaje indicando que la entrada es una vocal.
 
-5. Si la letra no es una consonante ni una vocal , se imprime un mensaje indicando que la entrada no es una letra. y el programa finaliza.
-![No es una letra](https://user-images.githubusercontent.com/124607325/225183124-3a3a0ea6-1e55-4567-b09c-8573a823431e.png)
+      ![VOCAL](https://user-images.githubusercontent.com/124607325/225183094-aedaa47f-eff8-45b1-b6eb-f00aeaec0bd4.png)
 
+   4. Si la letra no es una vocal, se verifica si es una consonante comparándola con una tupla de las consonantes en minúsculas utilizando el operador in.
 
+   5. Si la letra es una consonante, se imprime un mensaje indicando que la entrada es una consonante.
 
+      ![CONSONANTE](https://user-images.githubusercontent.com/124607325/225183103-66da80c5-6a2e-48aa-94c7-d37b856b8abc.png)
+
+   6. Si la letra no es una consonante ni una vocal , se imprime un mensaje indicando que la entrada no es una letra. y el programa finaliza.
+
+      ![No es una letra](https://user-images.githubusercontent.com/124607325/225183124-3a3a0ea6-1e55-4567-b09c-8573a823431e.png)
 
 ## Séptimo punto
 
@@ -252,14 +265,21 @@ else:
         ![image](https://user-images.githubusercontent.com/124721286/225167914-ef447554-5896-4bb3-b48d-27a41af45688.png)
 
 
-# Octavo punto #
-8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
-El usuario debe insertar el valor de la frecuencia para el cuál se desea conocer el espectro electromagnético. Dicha variable es previamented declarada y almacenada como un valor flotante. 
-En el programa se establecen los diferentes casos de clasificación dentro del espectro electromagnético de acuerdo a los valores de frecuencia. Si la condición no se cumple se pasa a la siguiente, hasta que se establesca una condicón verdadera y entonces el programa arrojará el mensaje correspondiente.
-Ejemplo: Para una frecuencia de 67e17:
-[![Rayos-x-67e17.png](https://i.postimg.cc/j5TM4HPL/Rayos-x-67e17.png)](https://postimg.cc/hJC8S7CB)
-Para una frecuencia de 589e8:
-[![microondas-589e8.png](https://i.postimg.cc/s27nW6Bk/microondas-589e8.png)](https://postimg.cc/Y42fKxzR)
+## Octavo punto
+
+  Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+
+  1. El usuario debe insertar el valor de la frecuencia para el cuál se desea conocer el espectro electromagnético. Dicha variable es previamented declarada y almacenada como un valor flotante. 
+
+  2. En el programa se establecen los diferentes casos de clasificación dentro del espectro electromagnético de acuerdo a los valores de frecuencia. Si la condición no se cumple se pasa a la siguiente, hasta que se establesca una condicón verdadera y entonces el programa arrojará el mensaje correspondiente.
+
+     Ejemplo: Para una frecuencia de 67e17:
+
+     [![Rayos-x-67e17.png](https://i.postimg.cc/j5TM4HPL/Rayos-x-67e17.png)](https://postimg.cc/hJC8S7CB)
+
+     Para una frecuencia de 589e8:
+
+     [![microondas-589e8.png](https://i.postimg.cc/s27nW6Bk/microondas-589e8.png)](https://postimg.cc/Y42fKxzR)
 
 Los valores de frecuencia asignados a las diferentes fueron tomados de [la vieja confiable](https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico "la vieja confiable") 
 Los valores de frecuencia asignados a los diferentes espectros electromagnéticos fueron tomados de [la vieja confiable](https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico "la vieja confiable") 
@@ -267,8 +287,10 @@ Los valores de frecuencia asignados a los diferentes espectros electromagnético
 [![Espectro.png](https://i.postimg.cc/4xrLmk3v/Espectro.png)](https://postimg.cc/YvzfsPYj)
 [![Espectro-Tabloid.jpg](https://i.postimg.cc/m2cxgFfK/Espectro-Tabloid.jpg)](https://postimg.cc/crNkDCJc)
 
+
+   3. Código completo
+
 ```
-´´´
 # Programa al que se le ingresa la frecuencia de una onda en hz y como salida arroja en que parte del espectro electromagnético se encuentra.
 frecuencia: float
 frecuencia = float(input("Agregar el valor de la frecuencia en Hz, usar notación científica si es necesario: "))
@@ -297,26 +319,31 @@ elif frecuencia >= 30e3 and frecuencia < 300e3 :
 else:
     frecuencia >= 3 and  frecuencia < 30e3
     print("Onda de radio de muy baja frecuencia")
-´´´
 ```
 
-# Noveno Punto #
+## Noveno Punto 
 
-1. Se solicita al usuario que ingrese el nombre en minúsculas de un país de América.
-![Ingresar ](https://user-images.githubusercontent.com/124607325/225161919-6af31f40-5540-4b65-a3a5-6f82c716ee5f.png)
+   1. Se solicita al usuario que ingrese el nombre en minúsculas de un país de América.
 
-2. Se comprueba si el nombre ingresado está en una lista de países americanos utilizando la declaración if Nombre in (...):.
-![9 punto](https://user-images.githubusercontent.com/124607325/225161930-f381481f-53d5-45e5-aedc-c6703b1734af.png)
-3. Si el país está en la lista, el programa imprime un mensaje que indica que el país es de América.
-![Lista de paises](https://user-images.githubusercontent.com/124607325/225162628-a3dc8919-8593-4409-85ac-91a4de81b700.png)
-![Lista de paises 2](https://user-images.githubusercontent.com/124607325/225162630-6de98076-1f05-43ac-b50a-3e6f91fe5d75.png)
-4. Se utiliza una serie de declaraciones elif para determinar la capital del país.
-![Pais, capital](https://user-images.githubusercontent.com/124607325/225162733-0a3039b9-7d0f-47e1-9d78-c8048f1a58d7.png)
+      ![Ingresar ](https://user-images.githubusercontent.com/124607325/225161919-6af31f40-5540-4b65-a3a5-6f82c716ee5f.png)
 
-5. Si el nombre ingresado no está en la lista de países, el programa imprime un mensaje que indica que el país no se pudo identificar y se finaliza el programa.
+   2. Se comprueba si el nombre ingresado está en una lista de países americanos utilizando la declaración if Nombre in (...):.
 
-![No identificado](https://user-images.githubusercontent.com/124607325/225162747-a61f3671-17e9-4770-b5b1-030ff77d2356.png)
+      ![9 punto](https://user-images.githubusercontent.com/124607325/225161930-f381481f-53d5-45e5-aedc-c6703b1734af.png)
 
+   3. Si el país está en la lista, el programa imprime un mensaje que indica que el país es de América.
+
+      ![Lista de paises](https://user-images.githubusercontent.com/124607325/225162628-a3dc8919-8593-4409-85ac-91a4de81b700.png)
+
+      ![Lista de paises 2](https://user-images.githubusercontent.com/124607325/225162630-6de98076-1f05-43ac-b50a-3e6f91fe5d75.png)
+
+   4. Se utiliza una serie de declaraciones elif para determinar la capital del país.
+
+      ![Pais, capital](https://user-images.githubusercontent.com/124607325/225162733-0a3039b9-7d0f-47e1-9d78-c8048f1a58d7.png)
+
+   5. Si el nombre ingresado no está en la lista de países, el programa imprime un mensaje que indica que el país no se pudo identificar y se finaliza el programa.
+
+      ![No identificado](https://user-images.githubusercontent.com/124607325/225162747-a61f3671-17e9-4770-b5b1-030ff77d2356.png)
 
 ## Décimo punto 
 
@@ -359,8 +386,3 @@ else:
       
 ### Diagrama de flujo punto 10 
    [![](https://mermaid.ink/img/pako:eNo1kc9PgzAUgP8V8k6YMKQtjJZEEzfG9OBJT44dKnSuEdqFFWVb9r_bFXynl_d9eT_yLlDpWkAGu0b_VnveGe89L5Vn42nzomQl9dabzR69hV802nBlhDfcjcLCgaU_eA9eLY8WVpJPbOlY7pumP1s83GPGUobjhE5C7oSVb45ayVo7h8QkxBNfOV745kfsZdU3o4FiFCKEJqdwzto3n7oxI8dh_N9h7ejzppBqWyoIoBVdy2Vtj73cjBLMXrSihMymNe--SyjV1Xq8N_rtpCrITNeLAPpDzY3IJf_qeAvZjjdHWz1wBdkFBshwmoSYURzhlFBGcDIP4AQZoSGL5zRCJMU4pXN2DeCste0QhSyKCImp5UmKSBKAqKXR3ev4C_cSN-HD-bc1rn_SVXdW?type=png)](https://mermaid.live/edit#pako:eNo1kc9PgzAUgP8V8k6YMKQtjJZEEzfG9OBJT44dKnSuEdqFFWVb9r_bFXynl_d9eT_yLlDpWkAGu0b_VnveGe89L5Vn42nzomQl9dabzR69hV802nBlhDfcjcLCgaU_eA9eLY8WVpJPbOlY7pumP1s83GPGUobjhE5C7oSVb45ayVo7h8QkxBNfOV745kfsZdU3o4FiFCKEJqdwzto3n7oxI8dh_N9h7ejzppBqWyoIoBVdy2Vtj73cjBLMXrSihMymNe--SyjV1Xq8N_rtpCrITNeLAPpDzY3IJf_qeAvZjjdHWz1wBdkFBshwmoSYURzhlFBGcDIP4AQZoSGL5zRCJMU4pXN2DeCste0QhSyKCImp5UmKSBKAqKXR3ev4C_cSN-HD-bc1rn_SVXdW)
-
-Notebook puntos (3, 5, 9) https://github.com/Lisa99M/Taller-1/blob/26a3479a81e93e040978cac8f03e9e8237b46330/taller%201%20(pto%203,%205,%209).ipynb
-
-Python files:
-Punto ocho: https://github.com/Lisa99M/Taller-1/blob/9915879d57f6facb589c1738a942d87ceb6cc9ba/Octavo%20punto.py
