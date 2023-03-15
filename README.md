@@ -1,19 +1,18 @@
 # Taller_1
 
-# Taller-1 Grupo Attack On Coding
+# Grupo Attack On Coding
 ![attack on coding](https://user-images.githubusercontent.com/124607325/225370329-96e3bfc0-d0a4-4adf-bda7-91cd5fc0260f.jpeg)
 
 
 ## Primer punto Quiz
-
+   
+   Dilan Mateo Torres Muñoz
+   
    ![image](https://user-images.githubusercontent.com/124721286/225171932-6644b634-fdae-4a8f-a69d-dcf4c304ed4f.png)
 
-## Segundo punto 
-   2. Realice un programa que lea tres números reales y determine cuál es el mayor.
-   
-### Diagrama de flujo ###
+## Segundo punto
 
-[![](https://mermaid.ink/img/pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g?type=png)](https://mermaid.live/edit#pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g)
+   Realice un programa que lea tres números reales y determine cuál es el mayor.
 
    1. En primer lugar se le pedirá al usuario asignar valor a cada una de las variables (a, b y c) que serán almacenadas como flotantes.
    
@@ -38,12 +37,13 @@ else:
     print("El mayor número es " + str(c))
 ```
 
+### Diagrama de flujo punto 2
+
+[![](https://mermaid.ink/img/pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g?type=png)](https://mermaid.live/edit#pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g)
+
 ## Tercer Punto
 
-##  Diagrama de flujo 
-
-   ![Diagrama de flujo punto 3](https://user-images.githubusercontent.com/124607325/225164100-c29c5ffe-fcb1-4f42-b618-bc0ae9b55476.png)
-
+   Realice un programa que lea un número enteros y determine si es par o impar.
 
    1. Se pide que ingrese un número entero.
    
@@ -61,6 +61,10 @@ else:
 
    3. Si el resultado de la expresión anterior es falso, se imprime un mensaje que indica que el número es par. Y finaliza el programa
 ![Resultado numero par](https://user-images.githubusercontent.com/124607325/225151781-53d82469-fee8-4d5a-a1bd-f0295a6c34cc.png)
+
+### Diagrama de flujo punto 3
+
+   ![Diagrama de flujo punto 3](https://user-images.githubusercontent.com/124607325/225164100-c29c5ffe-fcb1-4f42-b618-bc0ae9b55476.png)
 
 ## Cuarto Punto 
 
@@ -129,6 +133,8 @@ else:
      ```
 
 ## Sexto Punto
+
+   Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
 
    1. Se pide ingresar una letra y se almacena en la variable letra.
 
@@ -321,7 +327,9 @@ else:
     print("Onda de radio de muy baja frecuencia")
 ```
 
-## Noveno Punto 
+## Noveno Punto
+
+   Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 
    1. Se solicita al usuario que ingrese el nombre en minúsculas de un país de América.
 
