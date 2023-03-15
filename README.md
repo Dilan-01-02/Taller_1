@@ -22,21 +22,6 @@
    
       [![Ejemplo-con-5-78-y-3.png](https://i.postimg.cc/QtQh6ZCh/Ejemplo-con-5-78-y-3.png)](https://postimg.cc/ftRGLFYr)
 
-   3. Código completo:
-   
-```
-# Programa para calcular el mayor de tres números reales
-a: float = input("inserte valor de a")
-b: float = input("inserte valor de b")
-c: float = input("inserte valor de c")
-if a>b>c or a>c>b:
-    print("El mayor número es " + str(a))
-elif b>a>c or b>c>a:
-    print("El mayor número es " + str(b))
-else:
-    print("El mayor número es " + str(c))
-```
-
 ### Diagrama de flujo punto 2
 
 [![](https://mermaid.ink/img/pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g?type=png)](https://mermaid.live/edit#pako:eNqNkk1OwzAQRq8y8qoV6aKwi6AImgYqARvYQNLFKJ62Fokd_AOq0l6MLRfDjQmFCqRGiuRJ3ud5sqdhheLEYjYv1VuxRG3hIckl-OeiN5WiEKoPg8EILjPpKtJqGIMmLCFUx7-qk1DN2sA4QyMWEjW8Yqk04Bc0jLosrLrcDELLcZtMmonp4KOOPe3Y801gky27fiSzhkl2g2BchcAJSmWA-7fWYsv7nT7ew4IMVCS9yosjoBIs6cL_CLrTXipk_-fWd2oN6V8qo32VdKdydbgKrg5QSb9VrrN9j7Pd8bWxg1uLhfN39n9rFjHPVii4H4xmK5Izu6SKchb7JUf9nLNcbjyHzqr7lSxYbLWjiLmao6VE4EJjxeI5lsZ_JS6s0rdh0tqBi1iN8kmpjtl8AoEp1-g)
@@ -57,7 +42,6 @@ else:
    2. Si el número n es impar,  se determinará usando n % 2 != 0, que devuelve verdadero si el resto de la división de n entre 2  es cero. e imprime que el número ingresado no es par
    
       ![RESULTADO NUMERO NO PAR](https://user-images.githubusercontent.com/124607325/225151673-45464d1a-d59e-40a8-8303-e387ea1061a5.png)
-
 
    3. Si el resultado de la expresión anterior es falso, se imprime un mensaje que indica que el número es par. Y finaliza el programa
 ![Resultado numero par](https://user-images.githubusercontent.com/124607325/225151781-53d82469-fee8-4d5a-a1bd-f0295a6c34cc.png)
@@ -114,50 +98,32 @@ else:
 
        [![Ejemplo-con-16-4-y-20.png](https://i.postimg.cc/L8mSsbxb/Ejemplo-con-16-4-y-20.png)](https://postimg.cc/HVvRZBDw)
 
-  2. Codigo completo:
-
-     ```
-     # Programa que lee tres números reales y determina si la suma de los dos primeros es mayor, menor o igual que el tercer número.
-     numero1: float
-     numero1 = float(input("Insertar valor de numero1"))
-     numero2: float
-     numero2 = float(input("Insertar valor de numero2"))
-     numero3: float
-     numero3 = float(input("Insertar valor de numero3"))
-     if numero1+numero2 < numero3:
-        print("La suma de los dos primeros números es menor que el tercero")
-     elif numero1+numero2 > numero3:
-        print("La suma de los dos primeros números es mayor que el tercero")
-     else:
-        print("La suma de los dos primeros números es igual que el tercero")
-     ```
-
 ## Sexto Punto
 
    Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+   
+   1. Se pide ingresar una letra y se almacena en la variable "letra".
+      
+      ![INGRESE UNA LETRA](https://user-images.githubusercontent.com/124607325/225466419-34b83e1f-afb0-48fc-97aa-d86707fe5097.png)
 
-   1. Se pide ingresar una letra y se almacena en la variable letra.
+   2. Se verifica si la letra ingresada es una vocal con  una serie de declaraciones "if" y "elif" para comprobar si la letra ingresada es una vocal o una consonante.
 
-      ![INGRESE UNA LETRA](https://user-images.githubusercontent.com/124607325/225155395-d44f9289-5bc7-4633-9dda-1e5b4019d0e3.png)
+      ![Lista de variables letras](https://user-images.githubusercontent.com/124607325/225466808-1e796b2d-994f-4325-968c-ac0446be0cf9.png)
 
-      ![Sexto punto](https://user-images.githubusercontent.com/124607325/225183068-f23bb478-5ef0-4ea5-9898-07d9e56f96ad.png)
+      ![Lista de variables letras 2](https://user-images.githubusercontent.com/124607325/225466812-41f607d5-5b62-40cd-b858-91314384d5fd.png)
 
+   3. Si la letra es una vocal, se imprime un mensaje indicando que la letra es una vocal.
 
-   2. Se verifica si la letra ingresada es una vocal, comparándola con una tupla de las vocales en minúsculas utilizando el operador in.
+      ![VOCAL](https://user-images.githubusercontent.com/124607325/225466979-56e0f6aa-7f62-4fce-83ac-38bb7eaa0259.png)
 
-   3. Si la letra es una vocal, se imprime un mensaje indicando que la entrada es una vocal.
+   4. Si la letra es una consonante, se imprime un mensaje indicando que la entrada es una consonante.
 
-      ![VOCAL](https://user-images.githubusercontent.com/124607325/225183094-aedaa47f-eff8-45b1-b6eb-f00aeaec0bd4.png)
+      ![CONSONANTE](https://user-images.githubusercontent.com/124607325/225467043-d49f3db2-4863-4297-a70b-845ff79875cb.png)
 
-   4. Si la letra no es una vocal, se verifica si es una consonante comparándola con una tupla de las consonantes en minúsculas utilizando el operador in.
+   5. Si la letra no es una consonante ni una vocal , se imprime un mensaje indicando que la entrada no es una letra. y el programa finaliza.
 
-   5. Si la letra es una consonante, se imprime un mensaje indicando que la entrada es una consonante.
+      ![No es una letra](https://user-images.githubusercontent.com/124607325/225467109-b199aa6e-3c77-4d6d-954a-274e361ab547.png)
 
-      ![CONSONANTE](https://user-images.githubusercontent.com/124607325/225183103-66da80c5-6a2e-48aa-94c7-d37b856b8abc.png)
-
-   6. Si la letra no es una consonante ni una vocal , se imprime un mensaje indicando que la entrada no es una letra. y el programa finaliza.
-
-      ![No es una letra](https://user-images.githubusercontent.com/124607325/225183124-3a3a0ea6-1e55-4567-b09c-8573a823431e.png)
 
 ## Séptimo punto
 
@@ -293,39 +259,6 @@ Los valores de frecuencia asignados a los diferentes espectros electromagnético
 [![Espectro.png](https://i.postimg.cc/4xrLmk3v/Espectro.png)](https://postimg.cc/YvzfsPYj)
 [![Espectro-Tabloid.jpg](https://i.postimg.cc/m2cxgFfK/Espectro-Tabloid.jpg)](https://postimg.cc/crNkDCJc)
 
-
-   3. Código completo
-
-```
-# Programa al que se le ingresa la frecuencia de una onda en hz y como salida arroja en que parte del espectro electromagnético se encuentra.
-frecuencia: float
-frecuencia = float(input("Agregar el valor de la frecuencia en Hz, usar notación científica si es necesario: "))
-if frecuencia >= 1e19 :
-    print("Rayos gamma")
-elif frecuencia >= 30e15 and frecuencia < 30000e15 :
-    print("Rayos X")
-elif frecuencia >= 790e12 and frecuencia < 30e15 : 
-    print("Radiación ultravioleta")
-elif frecuencia >= 430e12 and frecuencia < 790e12 :
-    print("Espectro visible de la luz")
-elif frecuencia >= 300e9 and frecuencia < 430e12 : 
-    print("Espectro infrarrojo")
-elif frecuencia >= 300e6 and frecuencia < 300e9 : 
-    print("Radiación de microondas")
-elif frecuencia >= 300e6 and frecuencia < 10e9 :
-    print("Ondas de radio de ultra alta frecuencia")
-elif frecuencia >= 30e6 and frecuencia > 300e6 :
-    print("Ondas de radio de muy alta frecuencia")
-elif frecuencia >= 1e6 and frecuencia < 30e6 :
-    print("Onda corta de radio")
-elif frecuencia >= 300e3 and frecuencia < 1e6 :
-    print("Onda media de radio")
-elif frecuencia >= 30e3 and frecuencia < 300e3 :
-    print("Onda larga de radio")
-else:
-    frecuencia >= 3 and  frecuencia < 30e3
-    print("Onda de radio de muy baja frecuencia")
-```
 
 ## Noveno Punto
 
